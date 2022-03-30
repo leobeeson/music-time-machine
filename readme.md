@@ -29,8 +29,8 @@ PAGE_URL_PREFIX = "https://www.billboard.com/charts/latin-songs/"
 ### Spotify Access Token and Credentials
 - When instantiating the `SpotifyClient()` class (from spotify_client.py), the `authenticate` method called by the constructor (i.e. `__init__`) will create a `token.txt` containing your Spotify access token in the project's root folder. 
 - Though the access token is only valid for 60 minutes, be careful with it.
-- The `token.txt` file, with along the `.env` file containing your credentials, **is currently included in the `.gitignore` file**, but avoid removing them from it.
+- The `token.txt` file, along with the `.env` file containing your credentials, **is currently included in the `.gitignore` file**; avoid removing them from it.
 
 ## Credits:
-- This project was motivated by the course [100 Days of Code: The Complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/learn/), the [Day 46 project](https://www.udemy.com/course/100-days-of-code/learn/lecture/21839862#questions).
+- This project was motivated by the [Day 46 project](https://www.udemy.com/course/100-days-of-code/learn/lecture/21839862#questions), from the course [100 Days of Code: The Complete Python Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/learn/).
 
